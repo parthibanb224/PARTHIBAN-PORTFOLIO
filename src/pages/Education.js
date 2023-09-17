@@ -4,11 +4,11 @@ import { ReactComponent as Cap } from "../Assets/graduation-cap-circular-button-
 export default function Education({education}) {
     return (
         <div ref={education} className='w-screen flex flex-col sm:flex sm:flex-row bg-gray-200'>
-            <div className='h-screen w-screen sm:w-3/5 '>
+            <div className='sm:h-screen h-auto w-screen sm:w-3/5 '>
                 <div className=' p-16 h-full space-y-7'>
-                    <h1 className='text-7xl text-green-600 font-bold'>Education</h1>
+                    <h1 className='sm:text-7xl text-6xl text-green-600 font-bold'>Education</h1>
 
-                    <div className='flex flex-row w-full h-1/4 rounded-3xl bg-green-200 border border-green-500 hover:bg-green-300'>
+                    <div className='flex flex-row w-full sm:h-1/4 h-auto rounded-3xl bg-green-200 border border-green-500 hover:bg-green-300'>
                         <div className='w-1/5 pt-2 flex justify-center'><Cap /></div>
                         <div className='w-4/5 flex flex-col mt-2'>
                             <p className='font-bold text-green-500'>2013</p>
@@ -17,7 +17,7 @@ export default function Education({education}) {
                         </div>
                     </div>
 
-                    <div className='flex flex-row w-full rounded-3xl h-1/4 bg-green-200 border border-green-500 hover:bg-green-300'>
+                    <div className='flex flex-row w-full rounded-3xl sm:h-1/4 h-auto bg-green-200 border border-green-500 hover:bg-green-300'>
                         <div className='w-1/5 pt-2 flex justify-center'><Cap /></div>
                         <div className='w-4/5 flex flex-col mt-2'>
                             <p className='font-bold text-green-500'>2015-2019</p>
@@ -26,7 +26,7 @@ export default function Education({education}) {
                         </div>
                     </div>
 
-                    <div className='flex flex-row w-full sm:w-full h-1/4 rounded-3xl bg-green-200 border border-green-500 hover:bg-green-300'>
+                    <div className='flex flex-row w-full sm:w-full sm:h-1/4 h-auto rounded-3xl bg-green-200 border border-green-500 hover:bg-green-300'>
                         <div className='w-1/5 pt-2 flex justify-center'><Cap /></div>
                         <div className='w-4/5 flex flex-col mt-2'>
                             <p className='font-bold text-green-500'>2014-2015</p>

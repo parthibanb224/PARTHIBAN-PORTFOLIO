@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Projects({projects}) {
     return (
         <div ref={projects} className='w-screen h-auto sm:h-screen bg-gray-200'>
-            <h1 className='font-bold text-7xl text-green-500 text-center pt-2 mb-10'>Projects</h1>
+            <h1 className='font-bold sm:text-7xl text-6xl text-green-500 text-center pt-2 mb-10'>Projects</h1>
             <div className='flex flex-col gap-4 w-4/5 mx-auto sm:flex sm:flex-row sm:h-3/5 sm:gap-5'>
                 <div className='bg-green-500 p-5 w-full sm:basis-1/3 sm:p-5 sm:h-full rounded-3xl'>
                     <h1 className='font-bold text-2xl text-center'>PASSWORD-RESET</h1>

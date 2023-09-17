@@ -33,14 +33,14 @@ export default function Contact({contacts}) {
             <div className='flex flex-col sm:flex sm:flex-row gap-4 w-full sm:h-full sm:w-full'>
                 <div className='w-full h-screen sm:h-full sm:basis-4/12 flex items-center justify-center'>
                     <div className='space-y-8'>
-                        <h1 className='text-7xl text-green-500 font-bold pb-6'>Contacts</h1>
+                        <h1 className='sm:text-7xl text-6xl text-green-500 font-bold pb-6'>Contacts</h1>
                         <form onSubmit={handleSubmit}>
                             <TextField
                                 InputProps={{
-                                    style: { width: '420px', height: '50px', borderColor: 'green', borderRadius: "20px", labelColor: 'green', marginBottom: '10px' }
+                                    style: { borderColor: 'green', borderRadius: "20px", labelColor: 'green', marginBottom: '10px' }
                                 }}
                                 InputLabelProps={{ style: { color: 'green' } }}
-                                className=''
+                                className='w-full'
                                 id="outlined-basic"
                                 label="Name"
                                 variant="outlined"
@@ -51,10 +51,10 @@ export default function Contact({contacts}) {
                             /><br></br>
                             <TextField
                                 InputProps={{
-                                    style: { width: '420px', height: '50px', borderColor: 'green', borderRadius: "20px", labelColor: 'green', marginBottom: '10px' }
+                                    style: { borderColor: 'green', borderRadius: "20px", labelColor: 'green', marginBottom: '10px' }
                                 }}
                                 InputLabelProps={{ style: { color: 'green' } }}
-                                className=''
+                                className='w-full'
                                 id="outlined-basic"
                                 label="Email"
                                 variant="outlined"
@@ -65,13 +65,13 @@ export default function Contact({contacts}) {
                             /><br></br>
                             <TextField
                                 InputProps={{
-                                    style: { width: '420px', borderColor: 'green', borderRadius: "20px", labelColor: 'green', textAlign: 'right', marginBottom: '10px' }
+                                    style: { borderColor: 'green', borderRadius: "20px", labelColor: 'green', textAlign: 'right', marginBottom: '10px' }
                                 }}
                                 InputLabelProps={{ style: { color: 'green' } }}
                                 multiline
                                 rows={6}
                                 rowsMax={10}
-                                className=''
+                                className='w-full'
                                 id="outlined-basic"
                                 label="Message"
                                 variant="outlined"
@@ -91,16 +91,16 @@ export default function Contact({contacts}) {
                 <div className='w-full h-screen sm:h-full sm:basis-5/12 flex justify-center items-center'>
                     <div className='space-y-10 pt-36'>
                         <div className='flex items-center'>
-                            <img src='Static Assets/email.png' width='50px' height='50px' alt='email'></img>
-                            <h3 className=' ml-3 text-2xl'>parthibanb224@gmail.com</h3>
+                            <img className='w-11 h-11 sm:w-12 sm:h-12' src='Static Assets/email.png' alt='email'></img>
+                            <h3 className=' ml-3 sm:text-2xl text-lg'>parthibanb224@gmail.com</h3>
                         </div>
                         <div className='flex items-center'>
-                            <img src='Static Assets/phone.png' width='50px' height='50px' alt='phone'></img>
-                            <h3 className=' ml-3 text-2xl'>+91 9500501513</h3>
+                            <img className='w-11 h-11 sm:w-12 sm:h-12' src='Static Assets/phone.png' alt='phone'></img>
+                            <h3 className=' ml-3 sm:text-2xl text-lg'>+91 9500501513</h3>
                         </div>
                         <div className='flex items-center'>
-                            <img src='Static Assets/location.png' width='50px' height='50px' alt='place'></img>
-                            <h3 className=' ml-3 text-2xl'>Seelayampatti,Theni(DT),Tamilnadu</h3>
+                            <img className='w-11 h-11 sm:w-12 sm:h-12' src='Static Assets/location.png' alt='place'></img>
+                            <h3 className=' ml-3 sm:text-2xl text-lg'>Seelayampatti,Theni(DT),Tamilnadu</h3>
                         </div>
                         <div className='flex justify-center pt-8'>
                             <a href="https://www.linkedin.com/in/parthibanb224/" target="_blank" rel="noreferrer"><img className='grayscale hover:grayscale-0' src='Static Assets/icons8-linkedin-512.png' width='65px' height='65px' alt='linkedin'></img></a>

@@ -8,7 +8,7 @@ export default function Skills({skills}) {
         <div ref={skills} className='w-screen h-screen bg-gray-200'>
             <div className='w-full h-full flex justify-center items-center'>
                 <div>
-                    <h1 className='mb-20 text-center font-bold text-7xl text-green-500'>SKILLS</h1>
+                    <h1 className='mb-20 text-center font-bold sm:text-7xl text-6xl text-green-500'>SKILLS</h1>
                     <Splide
                         options={{
                             type: "loop",
