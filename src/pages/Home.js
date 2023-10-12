@@ -5,7 +5,7 @@ import { ReactComponent as Github } from "../Assets/github.svg"
 import { ReactComponent as Twitter } from "../Assets/twitter.svg"
 import { ReactComponent as Youtube } from "../Assets/youtube.svg"
 import { ReactComponent as Instagram } from "../Assets/instagram.svg"
-import Resume from '../Assets/Parthiban FSD Guvi.pdf'
+// import Resume from '../Assets/Parthiban FSD Guvi.pdf'
 
 export default function Home({ about, setOpen, open, contacts, scrollToSection }) {
 
@@ -36,13 +36,18 @@ export default function Home({ about, setOpen, open, contacts, scrollToSection }
                     <h1 className='sm:text-4xl text-2xl font-bold text-center sm:mb-5 mb-1'>FULL STACK DEVELOPER(MERN)</h1>
                     <h6 className='sm:text-xl text-md font-light'>I hold a Bachelor's degree in Engineering from Karpagam College of Engineering, and I recently completed a comprehensive MERN Full Stack Developer course at GUVI Institute. My educational background and hands-on training have equipped me with a strong foundation in engineering principles as well as cutting-edge skills in web development using the MERN (MongoDB, Express.js, React, Node.js) stack. I am passionate about creating dynamic and user-friendly web applications and am constantly seeking opportunities to contribute to innovative projects. Feel free to connect with me to explore collaboration and discuss the exciting possibilities at the intersection of engineering and full-stack development.</h6>
                     <div className='sm:mt-8 mt-3'>
-                        <a href={Resume} download='ParthibanResume' target="_blank" rel="noreferrer">
+                        {/* <a href={Resume} download='ParthibanResume' target="_blank" rel="noreferrer">
                             <button
                                 className='text-lg border border-green-500 p-2 px-3 hover:bg-green-500 hover:text-white text-green-500 rounded-3xl mr-4'>
-                                Download
+                                Resume
+                            </button>
+                        </a> */}
+                        <a href="https://drive.google.com/file/d/1xoxpxAu5FDr6dHLUIvbxrlATEGXP5Lsl/view?usp=sharing" target="_blank" rel="noreferrer">
+                            <button
+                                className='text-lg border border-green-500 p-2 px-3 hover:bg-green-500 hover:text-white text-green-500 rounded-3xl mr-4'>
+                                Resume
                             </button>
                         </a>
-
                         <button
                             onClick={() => scrollToSection(contacts)}
                             className='text-lg border border-green-500 p-2 px-3 hover:bg-green-500 hover:text-white text-green-500 rounded-3xl'>
