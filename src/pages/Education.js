@@ -11,7 +11,7 @@ export default function Education({education}) {
                     <div className='flex flex-row w-full sm:h-1/4 h-auto rounded-3xl bg-green-200 border border-green-500 hover:bg-green-300'>
                         <div className='w-1/5 pt-2 flex justify-center'><Cap /></div>
                         <div className='w-4/5 flex flex-col mt-2'>
-                            <p className='font-bold text-green-500'>2013</p>
+                            <p className='font-bold text-green-500'>2023</p>
                             <p className='font-bold text-2xl'>Full Stack Developer</p>
                             <p className='text-xl mt-3'>GUVI GEEK NETWORK Pvt. Ltd, Chennai</p>
                         </div>
