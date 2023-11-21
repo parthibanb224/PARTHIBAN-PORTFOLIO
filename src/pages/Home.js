@@ -42,7 +42,7 @@ export default function Home({ about, setOpen, open, contacts, scrollToSection }
                                 Resume
                             </button>
                         </a> */}
-                        <a href="https://drive.google.com/file/d/1Yrg6iJ4wy7_xrL7IWQbaMb9J9I5o1OSs/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1hHk_LyGmT1yPtt3dLQcA4Te0SIYNOCdz/view?usp=sharing" target="_blank" rel="noreferrer">
                             <button
                                 className='text-lg border border-green-500 p-2 px-3 hover:bg-green-500 hover:text-white text-green-500 rounded-3xl mr-4'>
                                 Resume
